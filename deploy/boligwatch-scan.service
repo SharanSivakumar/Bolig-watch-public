@@ -1,0 +1,12 @@
+[Unit]
+Description=BoligWatch rental scan
+Wants=network-online.target
+After=network-online.target
+OnFailure=boligwatch-alert.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/bolig-watch
+ExecStart=%h/bolig-watch/run.sh
+Nice=10
+TimeoutStartSec=45min

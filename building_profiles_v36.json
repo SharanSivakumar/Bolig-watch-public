@@ -1,0 +1,183 @@
+{
+  "manifest_version": "building-profiles-v36/1",
+  "frozen_at": "2026-09-15",
+  "profile_count": 9,
+  "source_pack": "tests/fixtures/v36m0_proposed_profiles.json",
+  "source_pack_sha256": "27729248a77a11726735b7bfb27b57142f55b7951324a396e1e73a45ff32852d",
+  "source_pack_copy": "tests/fixtures/v36m0_proposed_profiles.json",
+  "ordered_by": "source pack order (stable)",
+  "note": "Frozen from the hash-verified proposal pack. The lane was pre-released at 2026-09-15T11:39:36; no human review or approval of these profiles is claimed. The entries are public operator and building facts, not personal preferences.",
+  "profiles": [
+    {
+      "profile_key": "poppelstykket 6 2450 koebenhavn sv",
+      "display_name": "Poppelstykket",
+      "normalized_address": "Poppelstykket 6, 2450 København SV",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "LIV Residential",
+      "evidence_url": "https://livresidential.dk/bygninger/kobenhavn/poppelstykket",
+      "evidence_excerpt": "Poppelstykket er et moderne boligbyggeri i København SV med lyse, indbydende boliger og attraktive fællesfaciliteter. Her får du en skøn kombination af byliv, grønne omgivelser og nem adgang til reste",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T13:40:38",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5813542"
+      ]
+    },
+    {
+      "profile_key": "njalsgade 151 2300 koebenhavn s",
+      "display_name": "BaseStack Bryggen by Tribera",
+      "normalized_address": "Njalsgade 151, 2300 København S",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "Tribera Living",
+      "evidence_url": "https://triberaliving.com/copenhagen/?utm_source=boligsportal&utm_medium=referral&utm_campaign=profile_link",
+      "evidence_excerpt": "Located in lively Islands Brygge, BaseStack Bryggen offers modern, furnished studios & apartments with private kitchens, ensuite bathrooms, WiFi, gym, study areas, rooftop terraces & social events — 2",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-15T10:06:16",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5760114"
+      ]
+    },
+    {
+      "profile_key": "elstarvej 24 1 1 2500 valby",
+      "display_name": "Akeleje Hus",
+      "normalized_address": "Elstarvej 24, 1. 1, 2500 Valby",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "Bohavn",
+      "evidence_url": "https://bohavn.dk/locations/akeleje-hus",
+      "evidence_excerpt": "Akeleje Hus byder på moderne boliger i 18 etager med udsigt over Valby og København. Her får du adgang til fælleskøkkener, skylounge, tagterrasse, arbejdspladser og attraktive fællesfaciliteter på Grø",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T14:42:43",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5789823"
+      ]
+    },
+    {
+      "profile_key": "englandsvej 51 1 1 2300 koebenhavn s",
+      "display_name": "Englandshaven",
+      "normalized_address": "Englandsvej 51, 1. 1, 2300 København S",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "Bohavn",
+      "evidence_url": "https://bohavn.dk/locations/englandshaven",
+      "evidence_excerpt": "Englandshaven tilbyder lyse 1- og 2-værelses lejligheder med eget køkken og badeværelse. Her får du adgang til fælleskøkken, lounge, fitness, arbejdspladser og grønne fællesarealer – centralt på Amage",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T14:42:46",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5789826"
+      ]
+    },
+    {
+      "profile_key": "tobaksvejen 2c 2860 soeborg",
+      "display_name": "Tobakshaven",
+      "normalized_address": "Tobaksvejen 2C, 2860 Søborg",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "Bohavn",
+      "evidence_url": "https://bohavn.dk/locations/tobaksgaarden",
+      "evidence_excerpt": "Tobakshaven er en tidligere tobaksfabrik fra 1951, der er omdannet til moderne 1-værelses boliger. Her får du adgang til fælleskøkken, lounge, arbejdspladser og grønne fællesarealer – tæt på både letb",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T14:42:48",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5789824"
+      ]
+    },
+    {
+      "profile_key": "helsinkigade 27 2150 nordhavn",
+      "display_name": "Canvas Student Nordhavn",
+      "normalized_address": "Helsinkigade 27, 2150 Nordhavn",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "Canvas Student Nordhavn - By Greystar",
+      "evidence_url": "https://www.canvas-world.com/en/locations/denmark/copenhagen/nordhavn",
+      "evidence_excerpt": "Choose between studio apartments with a private or shared kitchen and become part of a vibrant community with a gym, social spaces, and study areas — right in the heart of Nordhavn’s modern waterfront",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T14:45:08",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5768944"
+      ]
+    },
+    {
+      "profile_key": "amagerfaelledvej 62 2300 koebenhavn s",
+      "display_name": "Canvas Student Amager",
+      "normalized_address": "Amagerfælledvej 62, 2300 København S",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "Canvas Student Amager - By Greystar",
+      "evidence_url": "https://www.canvas-world.com/en/locations/denmark/copenhagen/amager",
+      "evidence_excerpt": "Live nearby KU, ITU, and DMJX in modern student housing with shared kitchen and study areas – discover community.",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T14:45:10",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5768926"
+      ]
+    },
+    {
+      "profile_key": "siljangade 8 4 4 2300 koebenhavn s",
+      "display_name": "Siljangade",
+      "normalized_address": "Siljangade 8, 4. 4, 2300 København S",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "Juli Living",
+      "evidence_url": "https://juliliving.dk/siljangade/",
+      "evidence_excerpt": "Combine a modern home with work and leisure. Here you get studios with access to fitness, co-working, networking, and a rooftop terrace - close to the beach, metro, Amager Center, and 5 min bike ride ",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T14:43:14",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5679026"
+      ]
+    },
+    {
+      "profile_key": "torvestraedet 10 2740 skovlunde",
+      "display_name": "Skovlunde Bymidte",
+      "normalized_address": "Torvestrædet 10, 2740 Skovlunde",
+      "complex_key": null,
+      "building_form_state": "managed_multi_unit_block",
+      "management_state": "professional",
+      "operator_name": "LIV Residential",
+      "evidence_url": "https://livresidential.dk/bygninger",
+      "evidence_excerpt": "Torvestrædet & Bybuen byder på nye lejligheder fra 1-4 værelser. Her bor du midt i Skovlunde tæt på indkøb, station og grønne områder – perfekt til både singler, par og familier.",
+      "evidence_kind": "source_detail",
+      "verified_at": "2026-09-14T14:46:01",
+      "state": "active",
+      "superseded_at": null,
+      "superseded_reason": null,
+      "supporting_source_ids": [
+        "boligportal#5686869"
+      ]
+    }
+  ]
+}

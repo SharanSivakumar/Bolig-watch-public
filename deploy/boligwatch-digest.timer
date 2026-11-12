@@ -1,0 +1,10 @@
+[Unit]
+Description=Send the BoligWatch digest every morning
+
+[Timer]
+OnCalendar=*-*-* 10:30:00
+Persistent=true
+Unit=boligwatch-digest.service
+
+[Install]
+WantedBy=timers.target

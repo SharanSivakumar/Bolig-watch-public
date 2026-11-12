@@ -1,0 +1,12 @@
+[Unit]
+Description=Run the BoligWatch scan twice a day
+
+[Timer]
+# Change to hourly with: OnCalendar=hourly
+OnCalendar=*-*-* 10,15:00:00
+Persistent=true
+RandomizedDelaySec=5m
+Unit=boligwatch-scan.service
+
+[Install]
+WantedBy=timers.target

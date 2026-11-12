@@ -1,0 +1,703 @@
+{
+ "_provenance": {
+  "frozen_at": "2026-09-15T14:43:49+02:00",
+  "frozen_by": "operator pre-dispatch review 2026-09-15 (ORCH_v32/unblock/operator-review-20260915.md)",
+  "source": "boligwatch.db.backup-v33-20260910-125451 table matches, read-only, every distinct (site, listing_id) in backup id order",
+  "source_sha256": "fdcf7a45d48a0423281837433ae624f06190ee6555b522692e4c7ff460699263",
+  "why": "Spec 07 section 3.3 names 27 former options by street; no backup on disk holds exactly 27 match rows, and several of the 27 names match more than one row of the v3.3 backup. This file freezes the unambiguous superset: all 53 former match sources of the v3.3 backup. Every one of the 27 names matches at least one row here (spec_03_3_named). All 53 exist in production source_listings on 2026-09-15 (verified read-only).",
+  "row_count": 53,
+  "spec_03_3_name_count": 27,
+  "spec_03_3_name_hits": {
+   "Englandshaven": 1,
+   "Hejrevej": 1,
+   "Jorisvej": 2,
+   "Tåsingegade": 1,
+   "Finsensvej": 2,
+   "Gammel Køge Landevej 310": 1,
+   "Viola Nørløvs Gade": 2,
+   "Else Alfelts Vej 42": 1,
+   "Teglholmsgade": 1,
+   "Gammel Køge Landevej 40": 1,
+   "Fyrbødervej": 1,
+   "Else Alfelts Vej 44": 1,
+   "Frederikssundsvej": 2,
+   "Hans Knudsens Plads": 2,
+   "Kirkebjerg Allé": 2,
+   "Poul Bundgaards Vej": 2,
+   "Dortheavej 3": 1,
+   "C.F. Richs Vej 105C": 1,
+   "C.F. Richs Vej 105D": 1,
+   "Preben Kaas' Vænge": 1,
+   "Theklavej": 1,
+   "Brøndbyøster Boulevard": 3,
+   "Njalsgade": 2,
+   "Elstarvej": 1,
+   "Poppelstykket": 2,
+   "Vanløse Allé": 2,
+   "Dortheavej 2": 1
+  }
+ },
+ "former_options": [
+  {
+   "site": "boligportal",
+   "listing_id": "5810511",
+   "bw_id_at_backup": "BW-0000001",
+   "property_id_at_backup": 1,
+   "address_at_backup": "Viola Nørløvs Gade 3, 2450 København",
+   "title_at_backup": "Umøbleret lejlighed",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/31m2-1-vaer-id-5657870",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Viola Nørløvs Gade"
+   ]
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1785333",
+   "bw_id_at_backup": "BW-0000003",
+   "property_id_at_backup": 3,
+   "address_at_backup": "Poppelstykket",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1785333/lejlighed-til-9300-kr",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Poppelstykket"
+   ]
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1912292",
+   "bw_id_at_backup": "BW-0000009",
+   "property_id_at_backup": 9,
+   "address_at_backup": "Gammel Køge Landevej",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1912292/1-vaerelser-for-9100-kr-pr-maaned",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1912333",
+   "bw_id_at_backup": "BW-0000010",
+   "property_id_at_backup": 10,
+   "address_at_backup": "Poul Bundgaards Vej",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1912333/29-m2-lejlighed-i-valby",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Poul Bundgaards Vej"
+   ]
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1900779",
+   "bw_id_at_backup": "BW-0000016",
+   "property_id_at_backup": 16,
+   "address_at_backup": "Kirkebjerg Allé",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1900779/28-m2-lejlighed-i-vanloese",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Kirkebjerg Allé"
+   ]
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1900286",
+   "bw_id_at_backup": "BW-0000014",
+   "property_id_at_backup": 14,
+   "address_at_backup": "Vanløse Allé",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1900286/lejlighed-paa-vanloese-alle-i-vanloese",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Vanløse Allé"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5750572",
+   "bw_id_at_backup": "BW-0000034",
+   "property_id_at_backup": 34,
+   "address_at_backup": "Viola Nørløvs Gade 1, 2450 København",
+   "title_at_backup": "Umøbleret lejlighed",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/31m2-1-vaer-id-5610382",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Viola Nørløvs Gade"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5637912",
+   "bw_id_at_backup": "BW-0000035",
+   "property_id_at_backup": 35,
+   "address_at_backup": "Ved Stigbordene 16, 2450 København",
+   "title_at_backup": "Flot 1-værelses lejlighed på Sluseholmen!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/36m2-1-vaer-id-5520613",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5267533",
+   "bw_id_at_backup": "BW-0000038",
+   "property_id_at_backup": 38,
+   "address_at_backup": "Stadens Vænge 3, 2100 København",
+   "title_at_backup": "1-værelses lejlighed på Østerbro  ",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/30m2-1-vaer-id-5253204",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5150138",
+   "bw_id_at_backup": "BW-0000040",
+   "property_id_at_backup": 40,
+   "address_at_backup": "Godthåbsvej 205, 2720 København",
+   "title_at_backup": "Godt beliggende 1-værelses lejlighed i Vanløse",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/36m2-1-vaer-id-5150133",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5470550",
+   "bw_id_at_backup": "BW-0000043",
+   "property_id_at_backup": 43,
+   "address_at_backup": "Dortheavej 3, 2400 København",
+   "title_at_backup": "Lys lejlighed tæt på Nørrebro St. med stort køkken",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/37m2-1-vaer-id-5402662",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Dortheavej 3"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5694538",
+   "bw_id_at_backup": "BW-0000052",
+   "property_id_at_backup": 52,
+   "address_at_backup": "Brøndbyøster Boulevard 24, 2605 København",
+   "title_at_backup": "1 værelses lejlighed på Brøndbyøster Boulevard i Brøndby udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/30m2-1-vaer-id-5565797",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Brøndbyøster Boulevard"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5821734",
+   "bw_id_at_backup": "BW-0000053",
+   "property_id_at_backup": 53,
+   "address_at_backup": "Taastrup have 42, 2630 København",
+   "title_at_backup": "Hyggelig 2-værelses lejlighed centralt i Taastrup – tæt på byliv og grønne områder",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/60m2-2-vaer-id-5666448",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5821615",
+   "bw_id_at_backup": "BW-0000055",
+   "property_id_at_backup": 55,
+   "address_at_backup": "Østbrovej 19, 2600 København",
+   "title_at_backup": "Østbrovej, 2600 Glostrup",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/54m2-2-vaer-id-5666365",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5801491",
+   "bw_id_at_backup": "BW-0000057",
+   "property_id_at_backup": 57,
+   "address_at_backup": "Gammel Køge Landevej 40, 2500 København",
+   "title_at_backup": "Velkommen til Blækhus Valby!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/34m2-1-vaer-id-5650887",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Gammel Køge Landevej 40"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5807124",
+   "bw_id_at_backup": "BW-0000058",
+   "property_id_at_backup": 58,
+   "address_at_backup": "Finsensvej 15, 2000 København",
+   "title_at_backup": "Velkommen til Blækhus Frederiksberg!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/28m2-1-vaer-id-5655278",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Finsensvej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5824363",
+   "bw_id_at_backup": "BW-0000059",
+   "property_id_at_backup": 59,
+   "address_at_backup": "Poul Bundgaards Vej 5, 2500 København",
+   "title_at_backup": "Velkommen til Blækhus Valby M!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/29m2-1-vaer-id-5668595",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Poul Bundgaards Vej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5821150",
+   "bw_id_at_backup": "BW-0000060",
+   "property_id_at_backup": 60,
+   "address_at_backup": "Rødovre Port 21, 2610 København",
+   "title_at_backup": "Velkommen til Rødovre Port – nybyggeri med moderne komfort og perfekt beliggenhed.",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/39m2-1-vaer-id-5666001",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5825153",
+   "bw_id_at_backup": "BW-0000061",
+   "property_id_at_backup": 61,
+   "address_at_backup": "Brøndbyøster Boulevard 26, 2605 København",
+   "title_at_backup": "1 værelses lejlighed på Brøndbyøster Boulevard i Brøndby udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/27m2-1-vaer-id-5669242",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Brøndbyøster Boulevard"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5432325",
+   "bw_id_at_backup": "BW-0000062",
+   "property_id_at_backup": 62,
+   "address_at_backup": "Gartnerivej 1a, 2100 København",
+   "title_at_backup": "1 værelses lejlighed på Gartnerivej i København Ø udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/34m2-1-vaer-id-5373114",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5341148",
+   "bw_id_at_backup": "BW-0000063",
+   "property_id_at_backup": 63,
+   "address_at_backup": "Gammel Køge Landevej 310, 2650 København",
+   "title_at_backup": "Nyrenoveret studio i Hvidovre",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/31m2-1-vaer-id-5311710",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Gammel Køge Landevej 310"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5667575",
+   "bw_id_at_backup": "BW-0000069",
+   "property_id_at_backup": 69,
+   "address_at_backup": "Brøndbyøster Boulevard 28, 2605 København",
+   "title_at_backup": "1 værelses lejlighed på Brøndbyøster Boulevard i Brøndby udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/26m2-1-vaer-id-5543598",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Brøndbyøster Boulevard"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5813542",
+   "bw_id_at_backup": "BW-0000073",
+   "property_id_at_backup": 73,
+   "address_at_backup": "Poppelstykket 6-8, 2450 København",
+   "title_at_backup": "Poppelstykket",
+   "url_at_backup": "https://www.boligportal.dk/projektudlejning/poppelstykket-76666",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Poppelstykket"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5819673",
+   "bw_id_at_backup": "BW-0000074",
+   "property_id_at_backup": 74,
+   "address_at_backup": "Taastrup Hovedgade 39B, 2630 København",
+   "title_at_backup": "Nyistandsat 1 værelses lejlighed",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/28m2-1-vaer-id-5664905",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5818742",
+   "bw_id_at_backup": "BW-0000078",
+   "property_id_at_backup": 78,
+   "address_at_backup": "Vanløse Allé 79, 2720 København",
+   "title_at_backup": "Velkommen til Blækhus Vanløse",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/32m2-1-vaer-id-5664187",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Vanløse Allé"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5760114",
+   "bw_id_at_backup": "BW-0000039",
+   "property_id_at_backup": 39,
+   "address_at_backup": "Njalsgade 151-169, 2300 København",
+   "title_at_backup": "BaseStack Bryggen by Tribera",
+   "url_at_backup": "https://www.boligportal.dk/projektudlejning/basestack-bryggen-by-tribera-76609",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Njalsgade"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5813441",
+   "bw_id_at_backup": "BW-0000079",
+   "property_id_at_backup": 79,
+   "address_at_backup": "Else Alfelts Vej 42, 2300 København",
+   "title_at_backup": "1-værelses tæt på metro og massere natur!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/32m2-1-vaer-id-5660200",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Else Alfelts Vej 42"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5620594",
+   "bw_id_at_backup": "BW-0000081",
+   "property_id_at_backup": 81,
+   "address_at_backup": "Nørre Alle 1A, 2600 København",
+   "title_at_backup": "Nybygget og moderne 1-værelses lejlighed i Nørrelund – moderne komfort i rolige omgivelser",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/38m2-1-vaer-id-5515474",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5315507",
+   "bw_id_at_backup": "BW-0000083",
+   "property_id_at_backup": 83,
+   "address_at_backup": "Teglholmsgade 36, 2450 København",
+   "title_at_backup": "Lys og rummelig 1-værelses lejlighed i det attraktive Sydhavn i København.",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/35m2-1-vaer-id-5290530",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Teglholmsgade"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5180034",
+   "bw_id_at_backup": "BW-0000084",
+   "property_id_at_backup": 84,
+   "address_at_backup": "Theklavej 36, 2400 København",
+   "title_at_backup": "Et værelses lejlighed/ Studio",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/32m2-1-vaer-id-5180006",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Theklavej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5786116",
+   "bw_id_at_backup": "BW-0000048",
+   "property_id_at_backup": 48,
+   "address_at_backup": "Jorisvej 3, 2300 København",
+   "title_at_backup": "1-værelses tæt på metro og indkøb!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/28m2-1-vaer-id-5638701",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Jorisvej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5813806",
+   "bw_id_at_backup": "BW-0000088",
+   "property_id_at_backup": 88,
+   "address_at_backup": "Fyrbødervej 10, 2400 København",
+   "title_at_backup": "Nyrenoveret studios",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/24m2-1-vaer-id-5660480",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Fyrbødervej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5813434",
+   "bw_id_at_backup": "BW-0000090",
+   "property_id_at_backup": 90,
+   "address_at_backup": "Else Alfelts Vej 44, 2300 København",
+   "title_at_backup": "1-værelses tæt på metro og massere natur!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/34m2-1-vaer-id-5660193",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Else Alfelts Vej 44"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5302958",
+   "bw_id_at_backup": "BW-0000091",
+   "property_id_at_backup": 91,
+   "address_at_backup": "Preben Kaas' Vænge 3, 2000 København",
+   "title_at_backup": "1 værelses lejlighed på Preben Kaas' Vænge i Frederiksberg udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/39m2-1-vaer-id-5280790",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Preben Kaas' Vænge"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5530422",
+   "bw_id_at_backup": "BW-0000093",
+   "property_id_at_backup": 93,
+   "address_at_backup": "Dortheavej 2, 2400 København",
+   "title_at_backup": "1 værelses lejlighed på Dortheavej i København Nv udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/41m2-1-vaer-id-5447136",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Dortheavej 2"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5188541",
+   "bw_id_at_backup": "BW-0000100",
+   "property_id_at_backup": 100,
+   "address_at_backup": "Lyngby Hovedgade 63, 2800 København",
+   "title_at_backup": "1 værelses lejlighed på Lyngby Hovedgade i Kongens Lyngby udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/35m2-1-vaer-id-5188510",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5185370",
+   "bw_id_at_backup": "BW-0000101",
+   "property_id_at_backup": 101,
+   "address_at_backup": "Gyldendalsvej 2, 2800 København",
+   "title_at_backup": "1 værelses lejlighed på Gyldendalsvej i Kongens Lyngby udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/38m2-1-vaer-id-5185339",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5789823",
+   "bw_id_at_backup": "BW-0000104",
+   "property_id_at_backup": 104,
+   "address_at_backup": "Elstarvej 24, 2500 København",
+   "title_at_backup": "Akeleje Hus",
+   "url_at_backup": "https://www.boligportal.dk/projektudlejning/akeleje-hus-76648",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Elstarvej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5789826",
+   "bw_id_at_backup": "BW-0000105",
+   "property_id_at_backup": 105,
+   "address_at_backup": "Englandsvej 51, 2300 København",
+   "title_at_backup": "Englandshaven",
+   "url_at_backup": "https://www.boligportal.dk/projektudlejning/englandshaven-76645",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Englandshaven"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5803468",
+   "bw_id_at_backup": "BW-0000107",
+   "property_id_at_backup": 107,
+   "address_at_backup": "Tåsingegade 29, 2100 København",
+   "title_at_backup": "Furnished Studio for rent @Tåsingegade, Pulse Østerbro. Only 4 minutes walking distance from Poul Henningsens Plads metro station!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/23m2-1-vaer-id-5652194",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Tåsingegade"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5824335",
+   "bw_id_at_backup": "BW-0000108",
+   "property_id_at_backup": 108,
+   "address_at_backup": "C.F. Richs Vej 105c, 2000 København",
+   "title_at_backup": "1 værelses lejlighed på C.F. Richs Vej i Frederiksberg udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/23m2-1-vaer-id-5668570",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "C.F. Richs Vej 105C"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5788470",
+   "bw_id_at_backup": "BW-0000112",
+   "property_id_at_backup": 112,
+   "address_at_backup": "Kirkebjerg Allé 56g, 2720 København",
+   "title_at_backup": "Lys og funktionel bolig på Kirkebjerg Allé",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/28m2-1-vaer-id-5640727",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Kirkebjerg Allé"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5783875",
+   "bw_id_at_backup": "BW-0000114",
+   "property_id_at_backup": 114,
+   "address_at_backup": "Hans Knudsens Plads 1A, 2100 København",
+   "title_at_backup": "1-værelses med en god beliggenhed",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/35m2-1-vaer-id-5636931",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Hans Knudsens Plads"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5771671",
+   "bw_id_at_backup": "BW-0000118",
+   "property_id_at_backup": 118,
+   "address_at_backup": "Hans Knudsens Plads 1A, 2100 København",
+   "title_at_backup": "1-værelses med en god beliggenhed",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/45m2-1-vaer-id-5627128",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Hans Knudsens Plads"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5424942",
+   "bw_id_at_backup": "BW-0000064",
+   "property_id_at_backup": 64,
+   "address_at_backup": "Hejrevej 8, 2400 København",
+   "title_at_backup": "Newly built studios, 4min from Nørrebro St. with thriving community - Physical/virtual viewings available!",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/33m2-1-vaer-id-5367374",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Hejrevej"
+   ]
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1892799",
+   "bw_id_at_backup": "BW-0000172",
+   "property_id_at_backup": 172,
+   "address_at_backup": "Njalsgade",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1892799/28-m2-lejlighed-i-koebenhavn-s",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Njalsgade"
+   ]
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1911151",
+   "bw_id_at_backup": "BW-0000201",
+   "property_id_at_backup": 201,
+   "address_at_backup": "Frederikssundsvej",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1911151/lejlighed-paa-frederikssundsvej-i-koebenhavn-nv",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Frederikssundsvej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5301200",
+   "bw_id_at_backup": "BW-0000206",
+   "property_id_at_backup": 206,
+   "address_at_backup": "Frederikssundsvej 346, 2700 København",
+   "title_at_backup": "Dejligt lille lejlighed!  ",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/36m2-1-vaer-id-5279494",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Frederikssundsvej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "5511721",
+   "bw_id_at_backup": "BW-0000207",
+   "property_id_at_backup": 207,
+   "address_at_backup": "C.F. Richs Vej 105d, 2000 København",
+   "title_at_backup": "1 værelses lejlighed på C.F. Richs Vej i Frederiksberg udlejes",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/26m2-1-vaer-id-5433782",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "C.F. Richs Vej 105D"
+   ]
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1908279",
+   "bw_id_at_backup": "BW-0000212",
+   "property_id_at_backup": 212,
+   "address_at_backup": "Else Alfelts Vej",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1908279/31-m2-lejlighed-i-koebenhavn-s",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1890823",
+   "bw_id_at_backup": "BW-0000218",
+   "property_id_at_backup": 218,
+   "address_at_backup": "Finsensvej",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1890823/28-m2-lejlighed-i-frederiksberg",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Finsensvej"
+   ]
+  },
+  {
+   "site": "boligportal",
+   "listing_id": "4112718",
+   "bw_id_at_backup": "BW-0000224",
+   "property_id_at_backup": 224,
+   "address_at_backup": "Husumgade 44B, 2200 København",
+   "title_at_backup": "Lille bolig centralt beliggende i København",
+   "url_at_backup": "https://www.boligportal.dk/lejligheder/k%C3%B8benhavn/38m2-1-vaer-id-4112718",
+   "spec_03_3_named": false,
+   "spec_03_3_names": []
+  },
+  {
+   "site": "lejebolig",
+   "listing_id": "1912526",
+   "bw_id_at_backup": "BW-0000213",
+   "property_id_at_backup": 213,
+   "address_at_backup": "Jorisvej",
+   "title_at_backup": null,
+   "url_at_backup": "https://www.lejebolig.dk/lejebolig/1912526/28-m2-lejlighed-i-koebenhavn-s",
+   "spec_03_3_named": true,
+   "spec_03_3_names": [
+    "Jorisvej"
+   ]
+  }
+ ]
+}

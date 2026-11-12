@@ -1,0 +1,468 @@
+{
+ "generated_at": "2026-09-04T14:45:27+0200",
+ "count": 77,
+ "stations": [
+  {
+   "name": "Albertslund",
+   "lat": 55.6581188,
+   "lon": 12.3537736,
+   "network": "s-tog"
+  },
+  {
+   "name": "Allerød",
+   "lat": 55.8710875,
+   "lon": 12.3569533,
+   "network": "s-tog"
+  },
+  {
+   "name": "Avedøre",
+   "lat": 55.6256622,
+   "lon": 12.4555838,
+   "network": "s-tog"
+  },
+  {
+   "name": "Bagsværd",
+   "lat": 55.7615864,
+   "lon": 12.4545574,
+   "network": "s-tog"
+  },
+  {
+   "name": "Ballerup",
+   "lat": 55.7297174,
+   "lon": 12.3582875,
+   "network": "s-tog"
+  },
+  {
+   "name": "Bernstorffsvej",
+   "lat": 55.7428089,
+   "lon": 12.5578091,
+   "network": "s-tog"
+  },
+  {
+   "name": "Birkerød",
+   "lat": 55.8403845,
+   "lon": 12.4235029,
+   "network": "s-tog"
+  },
+  {
+   "name": "Bispebjerg",
+   "lat": 55.7062098,
+   "lon": 12.5414024,
+   "network": "s-tog"
+  },
+  {
+   "name": "Brøndby Strand",
+   "lat": 55.6209884,
+   "lon": 12.4218624,
+   "network": "s-tog"
+  },
+  {
+   "name": "Brøndbyøster",
+   "lat": 55.6650504,
+   "lon": 12.4410201,
+   "network": "s-tog"
+  },
+  {
+   "name": "Buddinge",
+   "lat": 55.7471585,
+   "lon": 12.4941762,
+   "network": "s-tog"
+  },
+  {
+   "name": "Carlsberg",
+   "lat": 55.6634508,
+   "lon": 12.5361547,
+   "network": "s-tog"
+  },
+  {
+   "name": "Danshøj",
+   "lat": 55.6643892,
+   "lon": 12.4937549,
+   "network": "s-tog"
+  },
+  {
+   "name": "Dybbølsbro",
+   "lat": 55.6650983,
+   "lon": 12.5595897,
+   "network": "s-tog"
+  },
+  {
+   "name": "Dyssegård",
+   "lat": 55.7323761,
+   "lon": 12.5360326,
+   "network": "s-tog"
+  },
+  {
+   "name": "Egedal",
+   "lat": 55.7797855,
+   "lon": 12.1854997,
+   "network": "s-tog"
+  },
+  {
+   "name": "Emdrup",
+   "lat": 55.7207286,
+   "lon": 12.5410549,
+   "network": "s-tog"
+  },
+  {
+   "name": "Farum",
+   "lat": 55.8121053,
+   "lon": 12.3737085,
+   "network": "s-tog"
+  },
+  {
+   "name": "Flintholm",
+   "lat": 55.6855434,
+   "lon": 12.4988664,
+   "network": "s-tog"
+  },
+  {
+   "name": "Frederikssund",
+   "lat": 55.8349843,
+   "lon": 12.0661855,
+   "network": "s-tog"
+  },
+  {
+   "name": "Friheden",
+   "lat": 55.6294229,
+   "lon": 12.483656,
+   "network": "s-tog"
+  },
+  {
+   "name": "Fuglebakken",
+   "lat": 55.6953074,
+   "lon": 12.5266803,
+   "network": "s-tog"
+  },
+  {
+   "name": "Gentofte",
+   "lat": 55.7535946,
+   "lon": 12.541436,
+   "network": "s-tog"
+  },
+  {
+   "name": "Glostrup",
+   "lat": 55.663094,
+   "lon": 12.3987613,
+   "network": "s-tog"
+  },
+  {
+   "name": "Grøndal",
+   "lat": 55.6905327,
+   "lon": 12.5153054,
+   "network": "s-tog"
+  },
+  {
+   "name": "Hareskov",
+   "lat": 55.7652202,
+   "lon": 12.4079689,
+   "network": "s-tog"
+  },
+  {
+   "name": "Hellerup",
+   "lat": 55.7305908,
+   "lon": 12.566911,
+   "network": "s-tog"
+  },
+  {
+   "name": "Herlev",
+   "lat": 55.7188384,
+   "lon": 12.4435483,
+   "network": "s-tog"
+  },
+  {
+   "name": "Hillerød",
+   "lat": 55.9270287,
+   "lon": 12.311414,
+   "network": "s-tog"
+  },
+  {
+   "name": "Holte",
+   "lat": 55.8076871,
+   "lon": 12.4685342,
+   "network": "s-tog"
+  },
+  {
+   "name": "Husum",
+   "lat": 55.710287,
+   "lon": 12.4631515,
+   "network": "s-tog"
+  },
+  {
+   "name": "Hvidovre",
+   "lat": 55.6644909,
+   "lon": 12.4750154,
+   "network": "s-tog"
+  },
+  {
+   "name": "Høje Taastrup",
+   "lat": 55.6489673,
+   "lon": 12.268557,
+   "network": "s-tog"
+  },
+  {
+   "name": "Islev",
+   "lat": 55.6988768,
+   "lon": 12.469386,
+   "network": "s-tog"
+  },
+  {
+   "name": "Jyllingevej",
+   "lat": 55.6903652,
+   "lon": 12.4779237,
+   "network": "s-tog"
+  },
+  {
+   "name": "Jægersborg",
+   "lat": 55.7618855,
+   "lon": 12.5215091,
+   "network": "s-tog"
+  },
+  {
+   "name": "KB Hallen",
+   "lat": 55.6778138,
+   "lon": 12.4923389,
+   "network": "s-tog"
+  },
+  {
+   "name": "Kildebakke",
+   "lat": 55.7446631,
+   "lon": 12.5079642,
+   "network": "s-tog"
+  },
+  {
+   "name": "Kildedal",
+   "lat": 55.7519613,
+   "lon": 12.2864603,
+   "network": "s-tog"
+  },
+  {
+   "name": "Klampenborg",
+   "lat": 55.7767944,
+   "lon": 12.5880869,
+   "network": "s-tog"
+  },
+  {
+   "name": "København Syd",
+   "lat": 55.6526314,
+   "lon": 12.516191,
+   "network": "s-tog"
+  },
+  {
+   "name": "Københavns Hovedbanegård",
+   "lat": 55.6724527,
+   "lon": 12.5653736,
+   "network": "s-tog"
+  },
+  {
+   "name": "Køge",
+   "lat": 55.4579793,
+   "lon": 12.1864669,
+   "network": "s-tog"
+  },
+  {
+   "name": "Køge Nord",
+   "lat": 55.4995703,
+   "lon": 12.1726037,
+   "network": "s-tog"
+  },
+  {
+   "name": "Langgade",
+   "lat": 55.6673952,
+   "lon": 12.5040869,
+   "network": "s-tog"
+  },
+  {
+   "name": "Lyngby",
+   "lat": 55.7680595,
+   "lon": 12.5031145,
+   "network": "s-tog"
+  },
+  {
+   "name": "Malmparken",
+   "lat": 55.7246625,
+   "lon": 12.3857045,
+   "network": "s-tog"
+  },
+  {
+   "name": "Måløv",
+   "lat": 55.7473861,
+   "lon": 12.3181279,
+   "network": "s-tog"
+  },
+  {
+   "name": "Nordhavn",
+   "lat": 55.7049718,
+   "lon": 12.5910118,
+   "network": "s-tog"
+  },
+  {
+   "name": "Nørrebro",
+   "lat": 55.7006813,
+   "lon": 12.5378036,
+   "network": "s-tog"
+  },
+  {
+   "name": "Nørreport",
+   "lat": 55.6834327,
+   "lon": 12.5717693,
+   "network": "s-tog"
+  },
+  {
+   "name": "Peter Bangs Vej",
+   "lat": 55.6780325,
+   "lon": 12.5036407,
+   "network": "s-tog"
+  },
+  {
+   "name": "Ryparken",
+   "lat": 55.7154843,
+   "lon": 12.5596915,
+   "network": "s-tog"
+  },
+  {
+   "name": "Rødovre",
+   "lat": 55.6648012,
+   "lon": 12.4591846,
+   "network": "s-tog"
+  },
+  {
+   "name": "Sjælør",
+   "lat": 55.6515213,
+   "lon": 12.5267123,
+   "network": "s-tog"
+  },
+  {
+   "name": "Skovbrynet",
+   "lat": 55.7651626,
+   "lon": 12.4337301,
+   "network": "s-tog"
+  },
+  {
+   "name": "Skovlunde",
+   "lat": 55.7230635,
+   "lon": 12.4027132,
+   "network": "s-tog"
+  },
+  {
+   "name": "Sorgenfri",
+   "lat": 55.7812129,
+   "lon": 12.4835887,
+   "network": "s-tog"
+  },
+  {
+   "name": "Stengården",
+   "lat": 55.7567178,
+   "lon": 12.4731006,
+   "network": "s-tog"
+  },
+  {
+   "name": "Stenløse",
+   "lat": 55.7668501,
+   "lon": 12.1900778,
+   "network": "s-tog"
+  },
+  {
+   "name": "Svanemøllen",
+   "lat": 55.7155342,
+   "lon": 12.5788253,
+   "network": "s-tog"
+  },
+  {
+   "name": "Sydhavn",
+   "lat": 55.6548839,
+   "lon": 12.5376084,
+   "network": "s-tog"
+  },
+  {
+   "name": "Taastrup",
+   "lat": 55.6524851,
+   "lon": 12.302094,
+   "network": "s-tog"
+  },
+  {
+   "name": "Valby",
+   "lat": 55.6637755,
+   "lon": 12.5135924,
+   "network": "s-tog"
+  },
+  {
+   "name": "Vallensbæk",
+   "lat": 55.6233618,
+   "lon": 12.3867814,
+   "network": "s-tog"
+  },
+  {
+   "name": "Vangede",
+   "lat": 55.7392848,
+   "lon": 12.5242143,
+   "network": "s-tog"
+  },
+  {
+   "name": "Vanløse",
+   "lat": 55.6871724,
+   "lon": 12.4915039,
+   "network": "s-tog"
+  },
+  {
+   "name": "Veksø",
+   "lat": 55.749917,
+   "lon": 12.2405908,
+   "network": "s-tog"
+  },
+  {
+   "name": "Vesterport",
+   "lat": 55.675817,
+   "lon": 12.56241,
+   "network": "s-tog"
+  },
+  {
+   "name": "Vigerslev Allé",
+   "lat": 55.6597688,
+   "lon": 12.4990504,
+   "network": "s-tog"
+  },
+  {
+   "name": "Virum",
+   "lat": 55.7961547,
+   "lon": 12.4729758,
+   "network": "s-tog"
+  },
+  {
+   "name": "Værløse",
+   "lat": 55.7824512,
+   "lon": 12.3719152,
+   "network": "s-tog"
+  },
+  {
+   "name": "Ålholm",
+   "lat": 55.6720657,
+   "lon": 12.4931707,
+   "network": "s-tog"
+  },
+  {
+   "name": "Åmarken",
+   "lat": 55.6397684,
+   "lon": 12.4998659,
+   "network": "s-tog"
+  },
+  {
+   "name": "Ølby",
+   "lat": 55.4798401,
+   "lon": 12.17566,
+   "network": "s-tog"
+  },
+  {
+   "name": "Ølstykke",
+   "lat": 55.7957669,
+   "lon": 12.1593166,
+   "network": "s-tog"
+  },
+  {
+   "name": "Østerport",
+   "lat": 55.693346,
+   "lon": 12.5883611,
+   "network": "s-tog"
+  }
+ ]
+}

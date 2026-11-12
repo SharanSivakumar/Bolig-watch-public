@@ -1,0 +1,57 @@
+{
+  "$schema": "https://example.invalid/boligwatch/profile-v1.json",
+  "version": 1,
+  "destination": {
+    "name": "Nørreport",
+    "lat": 55.6838,
+    "lon": 12.5712
+  },
+  "search": {
+    "sites": [
+      "lejebolig",
+      "boligportal"
+    ],
+    "target_move_date": "2027-02-01",
+    "preferred_window_start": "2027-01-15",
+    "preferred_window_end": "2027-02-15",
+    "rent_cap_dkk": 9700,
+    "affordable_rent_dkk": 7500,
+    "move_in_cost_max_dkk": 60000,
+    "discovery_rent_max_dkk": 11000,
+    "rooms_min": 1,
+    "rooms_max": 2,
+    "max_commute_min": 50,
+    "max_distance_km": 10,
+    "metro_walk_max_m": 1500,
+    "responsible_pick": {
+      "enabled": true,
+      "s_train_walk_max_m": 800,
+      "rent_max_dkk": 8500
+    }
+  },
+  "fit": {
+    "default_rating": 0.5
+  },
+  "scoring": {
+    "affordability": 35,
+    "transit": 20,
+    "commute": 16,
+    "water": 3,
+    "centre": 4,
+    "buzz": 3,
+    "area": 15,
+    "floor": 4,
+    "commute_full_min": 15,
+    "commute_zero_min": 45,
+    "transit_full_m": 500,
+    "transit_zero_m": 1500
+  },
+  "alerts": {
+    "instant_rank_tiers": [
+      "S",
+      "A"
+    ],
+    "price_drop_shortlist_only": true,
+    "property_cooldown_days": 7
+  }
+}

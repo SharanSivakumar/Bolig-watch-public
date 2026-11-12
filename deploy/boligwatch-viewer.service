@@ -1,0 +1,13 @@
+[Unit]
+Description=BoligWatch local web dashboard
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/bolig-watch
+ExecStart=%h/bolig-watch/.venv/bin/python %h/bolig-watch/run.py --serve
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,611 @@
+{
+ "generated_at": "2026-09-05T21:51:17+02:00",
+ "office": "Nørreport",
+ "stations": {
+  "Aksel Møllers Have": {
+   "ride_min": 10,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Albertslund": {
+   "ride_min": 25,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Allerød": {
+   "ride_min": 30,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Amager Strand": {
+   "ride_min": 11,
+   "via": "M2",
+   "network": "Metro"
+  },
+  "Amagerbro": {
+   "ride_min": 5,
+   "via": "M2",
+   "network": "Metro"
+  },
+  "Avedøre": {
+   "ride_min": 21,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Bagsværd": {
+   "ride_min": 25,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Ballerup": {
+   "ride_min": 30,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Bella Center": {
+   "ride_min": 11,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Bernstorffsvej": {
+   "ride_min": 12,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Birkerød": {
+   "ride_min": 28,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Bispebjerg": {
+   "ride_min": 14,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Brøndby Strand": {
+   "ride_min": 23,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Brøndbyøster": {
+   "ride_min": 21,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Buddinge": {
+   "ride_min": 21,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Carlsberg": {
+   "ride_min": 9,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Charlottenlund": {
+   "ride_min": 14,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Christianshavn": {
+   "ride_min": 4,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "DR Byen": {
+   "ride_min": 7,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Danshøj": {
+   "ride_min": 14,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Dybbølsbro": {
+   "ride_min": 7,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Dyssegård": {
+   "ride_min": 14,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Egedal": {
+   "ride_min": 46,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Emdrup": {
+   "ride_min": 12,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Enghave Brygge": {
+   "ride_min": 13,
+   "via": "M4",
+   "network": "Metro"
+  },
+  "Enghave Plads": {
+   "ride_min": 11,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Farum": {
+   "ride_min": 34,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Fasanvej": {
+   "ride_min": 5,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Femøren": {
+   "ride_min": 13,
+   "via": "M2",
+   "network": "Metro"
+  },
+  "Flintholm": {
+   "ride_min": 9,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Forum": {
+   "ride_min": 2,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Frederiksberg": {
+   "ride_min": 4,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Frederiksberg Allé": {
+   "ride_min": 10,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Frederikssund": {
+   "ride_min": 48,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Friheden": {
+   "ride_min": 18,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Fuglebakken": {
+   "ride_min": 18,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Gammel Strand": {
+   "ride_min": 9,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Gentofte": {
+   "ride_min": 14,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Glostrup": {
+   "ride_min": 23,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Greve": {
+   "ride_min": 32,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Grøndal": {
+   "ride_min": 16,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Hareskov": {
+   "ride_min": 30,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Havneholmen": {
+   "ride_min": 11,
+   "via": "M4",
+   "network": "Metro"
+  },
+  "Hellerup": {
+   "ride_min": 9,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Herlev": {
+   "ride_min": 25,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Hillerød": {
+   "ride_min": 32,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Holte": {
+   "ride_min": 25,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Hundige": {
+   "ride_min": 30,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Husum": {
+   "ride_min": 23,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Hvidovre": {
+   "ride_min": 16,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Høje Taastrup": {
+   "ride_min": 30,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Ishøj": {
+   "ride_min": 28,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Islands Brygge": {
+   "ride_min": 5,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Islev": {
+   "ride_min": 20,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Jersie": {
+   "ride_min": 39,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Jyllingevej": {
+   "ride_min": 18,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Jægersborg": {
+   "ride_min": 16,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "KB Hallen": {
+   "ride_min": 19,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Karlslunde": {
+   "ride_min": 34,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Kastrup": {
+   "ride_min": 14,
+   "via": "M2",
+   "network": "Metro"
+  },
+  "Kildebakke": {
+   "ride_min": 18,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Kildedal": {
+   "ride_min": 36,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Klampenborg": {
+   "ride_min": 16,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Kongens Nytorv": {
+   "ride_min": 2,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "København Syd": {
+   "ride_min": 14,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Københavns Hovedbanegård": {
+   "ride_min": 5,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Køge": {
+   "ride_min": 46,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Køge Nord": {
+   "ride_min": 41,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Langgade": {
+   "ride_min": 14,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Lergravsparken": {
+   "ride_min": 7,
+   "via": "M2",
+   "network": "Metro"
+  },
+  "Lindevang": {
+   "ride_min": 7,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Lufthavnen (Metro)": {
+   "ride_min": 16,
+   "via": "M2",
+   "network": "Metro"
+  },
+  "Lyngby": {
+   "ride_min": 18,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Malmparken": {
+   "ride_min": 32,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Marmorkirken": {
+   "ride_min": 9,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Mozarts Plads": {
+   "ride_min": 17,
+   "via": "M4",
+   "network": "Metro"
+  },
+  "Måløv": {
+   "ride_min": 34,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Nordhavn": {
+   "ride_min": 5,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Nuuks Plads": {
+   "ride_min": 12,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Nørrebro": {
+   "ride_min": 14,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Nørrebros Runddel": {
+   "ride_min": 16,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Nørreport": {
+   "ride_min": 0,
+   "via": "walk",
+   "network": "Metro"
+  },
+  "Ordrup": {
+   "ride_min": 12,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Orientkaj": {
+   "ride_min": 11,
+   "via": "M4",
+   "network": "Metro"
+  },
+  "Peter Bangs Vej": {
+   "ride_min": 16,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Poul Henningsens Plads": {
+   "ride_min": 11,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Ryparken": {
+   "ride_min": 9,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Rådhuspladsen": {
+   "ride_min": 10,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Rødovre": {
+   "ride_min": 18,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Sjælør": {
+   "ride_min": 12,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Skjolds Plads": {
+   "ride_min": 15,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Skovbrynet": {
+   "ride_min": 28,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Skovlunde": {
+   "ride_min": 27,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Sluseholmen": {
+   "ride_min": 15,
+   "via": "M4",
+   "network": "Metro"
+  },
+  "Solrød Strand": {
+   "ride_min": 37,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Sorgenfri": {
+   "ride_min": 21,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Stengården": {
+   "ride_min": 23,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Stenløse": {
+   "ride_min": 41,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Sundby": {
+   "ride_min": 9,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Svanemøllen": {
+   "ride_min": 7,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Sydhavn": {
+   "ride_min": 9,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Taastrup": {
+   "ride_min": 28,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Trianglen": {
+   "ride_min": 9,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Valby": {
+   "ride_min": 12,
+   "via": "B",
+   "network": "s-tog"
+  },
+  "Vallensbæk": {
+   "ride_min": 25,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Vangede": {
+   "ride_min": 16,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Vanløse": {
+   "ride_min": 11,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Veksø": {
+   "ride_min": 39,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Vestamager": {
+   "ride_min": 14,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Vesterport": {
+   "ride_min": 2,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Vibenhus Runddel": {
+   "ride_min": 13,
+   "via": "M3",
+   "network": "Metro"
+  },
+  "Vigerslev Allé": {
+   "ride_min": 21,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Virum": {
+   "ride_min": 23,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Værløse": {
+   "ride_min": 32,
+   "via": "H",
+   "network": "s-tog"
+  },
+  "Ålholm": {
+   "ride_min": 21,
+   "via": "F",
+   "network": "s-tog"
+  },
+  "Åmarken": {
+   "ride_min": 16,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Ølby": {
+   "ride_min": 44,
+   "via": "A",
+   "network": "s-tog"
+  },
+  "Ølstykke": {
+   "ride_min": 43,
+   "via": "C",
+   "network": "s-tog"
+  },
+  "Ørestad": {
+   "ride_min": 13,
+   "via": "M1",
+   "network": "Metro"
+  },
+  "Øresund": {
+   "ride_min": 9,
+   "via": "M2",
+   "network": "Metro"
+  },
+  "Østerport": {
+   "ride_min": 2,
+   "via": "A",
+   "network": "s-tog"
+  }
+ }
+}

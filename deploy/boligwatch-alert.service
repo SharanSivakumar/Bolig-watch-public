@@ -1,0 +1,7 @@
+[Unit]
+Description=Send a Telegram alert after a failed BoligWatch run
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/bolig-watch
+ExecStart=%h/bolig-watch/.venv/bin/python %h/bolig-watch/watchdog.py --failed

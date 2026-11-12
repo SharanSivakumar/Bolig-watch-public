@@ -1,0 +1,270 @@
+{
+ "generated_at": "2026-09-04T14:45:27+0200",
+ "count": 44,
+ "stations": [
+  {
+   "name": "Aksel Møllers Have",
+   "lat": 55.6860507,
+   "lon": 12.5329471,
+   "network": "Metro"
+  },
+  {
+   "name": "Amager Strand",
+   "lat": 55.6561353,
+   "lon": 12.6318585,
+   "network": "Metro"
+  },
+  {
+   "name": "Amagerbro",
+   "lat": 55.6633965,
+   "lon": 12.6028945,
+   "network": "Metro"
+  },
+  {
+   "name": "Bella Center",
+   "lat": 55.6380729,
+   "lon": 12.582926,
+   "network": "Metro"
+  },
+  {
+   "name": "Christianshavn",
+   "lat": 55.6720958,
+   "lon": 12.5913771,
+   "network": "Metro"
+  },
+  {
+   "name": "DR Byen",
+   "lat": 55.6557682,
+   "lon": 12.5890175,
+   "network": "Metro"
+  },
+  {
+   "name": "Enghave Brygge",
+   "lat": 55.6540722,
+   "lon": 12.5565102,
+   "network": "Metro"
+  },
+  {
+   "name": "Enghave Plads",
+   "lat": 55.667227,
+   "lon": 12.5467948,
+   "network": "Metro"
+  },
+  {
+   "name": "Fasanvej",
+   "lat": 55.6815945,
+   "lon": 12.5235687,
+   "network": "Metro"
+  },
+  {
+   "name": "Femøren",
+   "lat": 55.6451882,
+   "lon": 12.638338,
+   "network": "Metro"
+  },
+  {
+   "name": "Flintholm",
+   "lat": 55.6858744,
+   "lon": 12.4994896,
+   "network": "Metro"
+  },
+  {
+   "name": "Forum",
+   "lat": 55.6818073,
+   "lon": 12.5525408,
+   "network": "Metro"
+  },
+  {
+   "name": "Frederiksberg",
+   "lat": 55.6811699,
+   "lon": 12.5322237,
+   "network": "Metro"
+  },
+  {
+   "name": "Frederiksberg Allé",
+   "lat": 55.6734871,
+   "lon": 12.5405342,
+   "network": "Metro"
+  },
+  {
+   "name": "Gammel Strand",
+   "lat": 55.6775945,
+   "lon": 12.5789275,
+   "network": "Metro"
+  },
+  {
+   "name": "Havneholmen",
+   "lat": 55.6609865,
+   "lon": 12.5593142,
+   "network": "Metro"
+  },
+  {
+   "name": "Islands Brygge",
+   "lat": 55.6634112,
+   "lon": 12.5852113,
+   "network": "Metro"
+  },
+  {
+   "name": "Kastrup",
+   "lat": 55.6357222,
+   "lon": 12.6469508,
+   "network": "Metro"
+  },
+  {
+   "name": "Kongens Nytorv",
+   "lat": 55.6796344,
+   "lon": 12.5850827,
+   "network": "Metro"
+  },
+  {
+   "name": "København Syd",
+   "lat": 55.6529886,
+   "lon": 12.5159673,
+   "network": "Metro"
+  },
+  {
+   "name": "Københavns Hovedbanegård",
+   "lat": 55.6714003,
+   "lon": 12.5638753,
+   "network": "Metro"
+  },
+  {
+   "name": "Lergravsparken",
+   "lat": 55.662236,
+   "lon": 12.6170475,
+   "network": "Metro"
+  },
+  {
+   "name": "Lindevang",
+   "lat": 55.6834487,
+   "lon": 12.5131859,
+   "network": "Metro"
+  },
+  {
+   "name": "Lufthavnen (Metro)",
+   "lat": 55.6309113,
+   "lon": 12.6492236,
+   "network": "Metro"
+  },
+  {
+   "name": "Marmorkirken",
+   "lat": 55.6851258,
+   "lon": 12.5890307,
+   "network": "Metro"
+  },
+  {
+   "name": "Mozarts Plads",
+   "lat": 55.6489712,
+   "lon": 12.5343368,
+   "network": "Metro"
+  },
+  {
+   "name": "Nordhavn",
+   "lat": 55.7074271,
+   "lon": 12.5915656,
+   "network": "Metro"
+  },
+  {
+   "name": "Nuuks Plads",
+   "lat": 55.6884779,
+   "lon": 12.5425294,
+   "network": "Metro"
+  },
+  {
+   "name": "Nørrebro",
+   "lat": 55.7000485,
+   "lon": 12.5379713,
+   "network": "Metro"
+  },
+  {
+   "name": "Nørrebros Runddel",
+   "lat": 55.693528,
+   "lon": 12.5489348,
+   "network": "Metro"
+  },
+  {
+   "name": "Nørreport",
+   "lat": 55.6838,
+   "lon": 12.5712413,
+   "network": "Metro"
+  },
+  {
+   "name": "Orientkaj",
+   "lat": 55.7118379,
+   "lon": 12.5951777,
+   "network": "Metro"
+  },
+  {
+   "name": "Poul Henningsens Plads",
+   "lat": 55.7094751,
+   "lon": 12.5761362,
+   "network": "Metro"
+  },
+  {
+   "name": "Rådhuspladsen",
+   "lat": 55.6764406,
+   "lon": 12.5682006,
+   "network": "Metro"
+  },
+  {
+   "name": "Skjolds Plads",
+   "lat": 55.7034992,
+   "lon": 12.5487689,
+   "network": "Metro"
+  },
+  {
+   "name": "Sluseholmen",
+   "lat": 55.6458281,
+   "lon": 12.544414,
+   "network": "Metro"
+  },
+  {
+   "name": "Sundby",
+   "lat": 55.6452516,
+   "lon": 12.5857172,
+   "network": "Metro"
+  },
+  {
+   "name": "Trianglen",
+   "lat": 55.6992513,
+   "lon": 12.575555,
+   "network": "Metro"
+  },
+  {
+   "name": "Vanløse",
+   "lat": 55.6871452,
+   "lon": 12.4925009,
+   "network": "Metro"
+  },
+  {
+   "name": "Vestamager",
+   "lat": 55.619371,
+   "lon": 12.5755841,
+   "network": "Metro"
+  },
+  {
+   "name": "Vibenhus Runddel",
+   "lat": 55.7063956,
+   "lon": 12.5647764,
+   "network": "Metro"
+  },
+  {
+   "name": "Ørestad",
+   "lat": 55.6290128,
+   "lon": 12.579355,
+   "network": "Metro"
+  },
+  {
+   "name": "Øresund",
+   "lat": 55.6614401,
+   "lon": 12.6287182,
+   "network": "Metro"
+  },
+  {
+   "name": "Østerport",
+   "lat": 55.692878,
+   "lon": 12.5859236,
+   "network": "Metro"
+  }
+ ]
+}
